@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slideInFromBottom 0.6s ease-out forwards; /* forwards to retain final state */
+}
+/* Slide-in with specific delays */
+.slide-in-1 {
+  animation: slideInFromBottom 0.6s ease-out forwards 0.3s; /* No delay */
+}
+
+.slide-in-2 {
+  animation: slideInFromBottom 0.6s ease-out forwards 0.6s; /* 0.3s delay */
+}
+
+.slide-in-3 {
+  animation: slideInFromBottom 0.6s ease-out forwards 0.9s; /* 0.6s delay */
+}
+
+.slide-in-4 {
+  animation: slideInFromBottom 0.6s ease-out forwards 1.2s; /* 0.9s delay */
+}
