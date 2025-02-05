@@ -1,10 +1,2 @@
-<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_29_540)">
-<path d="M39.3838 5.83624L10.2171 35.0029L19.2092 43.995L57.3592 5.83624H39.3838ZM39.3663 32.6637L23.6892 48.475L39.3575 64.1667H57.4088L41.6967 48.4167L57.4146 32.6667L39.3663 32.6637Z" fill="white" fill-opacity="0.5"/>
-</g>
-<defs>
-<clipPath id="clip0_29_540">
-<rect width="70" height="70" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title>file_type_flutter</title><polyline points="15.383 18.316 18.744 15.042 27.093 15.042 19.697 22.438 15.383 18.316 15.383 18.316 15.383 18.316 15.383 18.316 15.383 18.316" style="fill:#40d0fd"/><polygon points="4.907 16.125 9.106 20.424 27.093 2.287 18.744 2.287 4.907 16.125" style="fill:#41d0fd;isolation:isolate"/><polygon points="11.176 22.479 15.435 26.675 19.697 22.438 15.383 18.316 11.176 22.479" style="fill:#1fbcfd"/><polygon points="15.435 26.675 19.697 22.438 26.989 29.813 18.593 29.813 15.435 26.675" style="fill:#095a9d"/><polygon points="15.435 26.675 19.406 25.354 18.068 24.057 15.435 26.675" style="fill:#0e5199"/></svg>
