@@ -1,18 +1,18 @@
 <div class="w-full h-auto sm:h-screen flex flex-col justify-center items-center">
-  <h1 class="text-2xl pt-48 sm:pt-52 tracking-22p font-bold text-center sm:text-5xl bg-gradient-to-br from-primaryBlueDark to-primaryBlueLight text-transparent bg-clip-text uppercase">Abhijeet Bhardwaj</h1>
-  <p class="text-sm sm:text-3xl tracking-22p font-medium sm:pt-3 text-center bg-gradient-to-br from-primaryBlueDark to-primaryBlueLight text-transparent bg-clip-text uppercase">Software Engineer</p>
-  <p class="text-3xl sm:text-7xl tracking-22p font-medium pt-2 text-center bg-gradient-to-br from-primaryBlueDark to-primaryBlueLight text-transparent bg-clip-text">Full-Stack Developer</p>
+  <h1 appScrollAnimate class="text-2xl pt-48 sm:pt-52 tracking-22p font-bold text-center sm:text-5xl bg-gradient-to-br from-primaryBlueDark to-primaryBlueLight text-transparent bg-clip-text uppercase">Abhijeet Bhardwaj</h1>
+  <p appScrollAnimate [delay]="200" class="text-sm sm:text-3xl tracking-22p font-medium sm:pt-3 text-center bg-gradient-to-br from-primaryBlueDark to-primaryBlueLight text-transparent bg-clip-text uppercase">Software Engineer</p>
+  <p appScrollAnimate [delay]="300" class="text-3xl sm:text-7xl tracking-22p font-medium pt-2 text-center bg-gradient-to-br from-primaryBlueDark to-primaryBlueLight text-transparent bg-clip-text">Full-Stack Developer</p>
   <p class="text-sm sm:text-base pt-2 pb-8 sm:pb-14 px-8 sm:pt-3 text italic max-w-xl from-primaryBlueDark text-center">
     - “Skilled in Java (<span class="text-accentColor">Spring Boot</span> ),Dart (<span class="text-accentColor">Flutter</span>), and Typescript (<span class="text-accentColor">Angular</span>) for backend, mobile-app and web-app development.”
   </p>
-  <a href="Resume-AbhijeetBh-v9.pdf">
+  <a appScrollAnimate [delay]="500" href="Resume-AbhijeetBh-v9.pdf">
   <div class="flex justify-center items-center bg-accentColor px-7 py-2">
       <p class="text-sm sm:text-lg text-white font-medium">RESUME</p>
     <img src="download-icon.svg" alt="Logo" class="pl-2 h-6"/>
   </div>
   </a>
   <!-- Blinking Arrow Down Button -->
-  <div
+  <div appScrollAnimate [delay]="600"
     class="mt-10 sm:mt-24 mb-10 sm:mb-24 animate-bounce cursor-pointer"
     (click)="scrollDown()"
   >
