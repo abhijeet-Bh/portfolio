@@ -11,19 +11,21 @@ const projects = [
     github: '#',
     external: '#',
     gallery: [
-      'https://placehold.co/1000x700/112240/ccd6f6?text=Hrelix+Dashboard',
-      'https://placehold.co/1000x700/112240/ccd6f6?text=Hrelix+Settings'
+      `${import.meta.env.BASE_URL}hrelix-1.png`,
+      `${import.meta.env.BASE_URL}hrelix-2.png`,
+      `${import.meta.env.BASE_URL}hrelix-3.png`
     ]
   },
   {
     title: 'Invox',
-    description: 'An intelligent invoicing solution for freelancers and small businesses to generate, send, and track invoices with ease.',
+    description: 'An pocket financial tracker application, to track your expenses income and savings. Get complete insight of your money!',
     tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
     github: '#',
     external: '#',
     gallery: [
-      'https://placehold.co/1000x700/112240/ccd6f6?text=Invox+Invoicing',
-      'https://placehold.co/1000x700/112240/ccd6f6?text=Invox+Tracker'
+      `${import.meta.env.BASE_URL}invox-1.png`,
+      `${import.meta.env.BASE_URL}invox-2.png`,
+      `${import.meta.env.BASE_URL}invox-3.png`
     ]
   },
   {
@@ -33,8 +35,7 @@ const projects = [
     github: '#',
     external: '#',
     gallery: [
-      'https://placehold.co/600x1200/112240/ccd6f6?text=TravlPoint+App',
-      'https://placehold.co/600x1200/112240/ccd6f6?text=TravlPoint+Map'
+      `${import.meta.env.BASE_URL}travlpoint-1.png`
     ]
   }
 ];
@@ -82,7 +83,7 @@ export function Projects() {
               <FiFolder className="text-accent w-12 h-12" />
               <div className="flex gap-4">
                 {project.gallery && project.gallery.length > 0 && (
-                  <button 
+                  <button
                     onClick={() => {
                       setSelectedGallery(project.gallery);
                       setCurrentImageIndex(0);
@@ -101,14 +102,14 @@ export function Projects() {
                 </a>
               </div>
             </div>
-            
+
             <h3 className="text-2xl font-bold text-slate-lightest mb-4 group-hover:text-accent transition-colors relative z-10">
               {project.title}
             </h3>
             <p className="text-slate text-base mb-8 flex-grow leading-relaxed relative z-10">
               {project.description}
             </p>
-            
+
             <ul className="flex flex-wrap gap-3 font-mono text-xs text-slate-light mt-auto relative z-10">
               {project.tech.map((tech, techIdx) => (
                 <li key={techIdx} className="bg-navy-main/80 px-3 py-1 rounded-full border border-navy-lightest/50">
@@ -140,7 +141,7 @@ export function Projects() {
 
             {/* Main Image Container */}
             <div className="relative w-full max-w-5xl h-[60vh] md:h-[75vh] flex items-center justify-center">
-              
+
               {/* Prev Button */}
               {selectedGallery.length > 1 && (
                 <button
