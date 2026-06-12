@@ -115,7 +115,8 @@ export function Navbar() {
             >
               {/* Fallback text for mobile browsers that don't support iframe PDF rendering */}
               <iframe
-                src="/resume.pdf"
+                // src="/resume.pdf"
+                src={`${import.meta.env.BASE_URL}resume.pdf`}
                 className="w-full h-full border-none"
                 title="Resume PDF"
               >
